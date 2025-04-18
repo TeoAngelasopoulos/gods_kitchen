@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Συνταγή Μαγειρικής</title>
+    <style>
+        .recipe-card {
+            font-family: 'Arial', sans-serif;
+            max-width: 400px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background: #fff;
+        }
+        
+        .recipe-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .recipe-content {
+            padding: 15px;
+        }
+        
+        .recipe-title {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .recipe-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .recipe-description {
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        
+        .recipe-button {
+            display: block;
+            text-align: center;
+            background-color: #1877f2; /* Facebook blue */
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .recipe-button:hover {
+            background-color: #165dbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="recipe-card">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Συνταγή" class="recipe-image">
+        <div class="recipe-content">
+            <h2 class="recipe-title">Παραδοσιακή Μουσακά</h2>
+            <div class="recipe-meta">
+                <span>⏱️ 1 ώρα</span>
+                <span>🍽️ 4 άτομα</span>
+            </div>
+            <p class="recipe-description">
+                Μια νόστιμη παραδοσιακή συνταγή για μουσακά με μελιτζάνες, κιμά και μπεσαμέλ. Ιδανική για οικογενειακό γεύμα!
+            </p>
+            <a href="https://www.facebook.com/profile.php?id=61575587754775" class="recipe-button" target="_blank">Δες περισσότερες συνταγές στο Facebook</a>
+        </div>
+    </div>
+</body>
+</html>
